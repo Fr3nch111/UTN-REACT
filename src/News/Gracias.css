@@ -1,0 +1,118 @@
+.TFD{
+
+    height: 100vh;
+    width: 100%;
+    
+
+}
+.tdc-text{
+  
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0;
+}
+.tdc-foto{
+    padding-left: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+@media (280px <= width <= 650px ) {
+    .TFD{
+
+        height: 100vh;
+        width: 100%;
+        
+    
+    }
+    .tdc-text{
+      
+        color: white;
+        font-size: 15px;
+        text-align: center;
+
+    }
+    .tdc-foto{
+   height: 0px;
+   width: 0px;
+    }
+    .TFD-DIV{
+        width: 0%;
+        height: 0%;
+  
+    }
+}
+
+@media (651px <= width <= 867px ) {
+
+    .TFD{
+
+        height: 100vh;
+        width: 100%;
+        
+    
+    }
+  
+    .tdc-text{
+      
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    
+
+    }
+    .tdc-foto{
+        width: 900px;
+        height: 400px;
+    
+    }
+    .TFD-DIV{
+        width: 100%;
+        margin-bottom: 5%;
+        padding-right: 20%;
+        display: flex;
+    justify-content: right;
+    align-items: center;
+
+    }
+
+
+}
+
+@media (868px <= width <= 1365px ) {
+    .TFD{
+
+        height: 100vh;
+        width: 100%;
+        
+    
+    }
+  
+    .tdc-text{
+      
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    
+
+    }
+    .tdc-foto{
+        width: 1000px;
+        height: 500px;
+    
+    }
+    .TFD-DIV{
+        width: 100%;
+        margin-bottom: 2%;
+        padding-right: 30%;
+        display: flex;
+    justify-content: right;
+    align-items: center;
+
+    }
+
+
+}

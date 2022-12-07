@@ -1,0 +1,190 @@
+
+.Inferiores{
+
+    height: 100vh;
+    width: 100%;
+    
+
+}
+.inf-text{
+  
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0;
+}
+.inf-foto{
+    padding-left: 390px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+@media (280px <= width <= 768px) {
+
+    .Inferiores{
+
+        height: 100%;
+        width: 100%;
+        
+    
+    }
+    .inf-foto{
+        width: 0px;
+        height: 0px;
+    
+    
+    }
+    .info-photo{
+        margin-right: 0%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 10%;
+        width: 100%;
+    }
+
+   
+
+  
+
+    .inf-text{
+      
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 0px;
+      
+    }
+
+ }
+    
+@media (769px <= width <= 899px) {
+
+
+    .Inferiores{
+
+        height: 500px;
+        width: 100%;
+
+    
+        
+    
+    }
+
+    }
+.inf-foto{
+    width: 1000px;
+    height: 500px;
+
+
+}
+  
+
+    .inf-text{
+      
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 0px;
+
+    }
+
+
+.info-photo{
+    margin-right: 0%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 1%;
+    width: 100%;
+}
+ 
+
+    
+@media (900px <= width <= 1099px) {
+    .Inferiores{
+
+        height: 500px;
+        width: 100%;
+
+    
+        
+    
+    }
+
+    }
+.inf-foto{
+    width: 1000px;
+    height: 500px;
+
+
+}
+  
+
+    .inf-text{
+      
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 0px;
+
+    }
+
+
+.info-photo{
+    margin-right: 0%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 15%;
+    width: 100%;
+}
+
+
+@media (1100px <= width <= 1365px) {
+    .Inferiores{
+
+        height: 500px;
+        width: 100%;
+
+    
+        
+    
+    }
+
+    }
+.inf-foto{
+    width: 1000px;
+    height: 500px;
+
+
+}
+  
+
+    .inf-text{
+      
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding-left: 0px;
+
+    }
+
+.info-photo{
+    margin-right: 0%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 25%;
+    width: 100%;
+
+
+}
+

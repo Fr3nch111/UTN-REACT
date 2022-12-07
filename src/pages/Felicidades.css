@@ -1,0 +1,94 @@
+@media ( width >= 1366px ) {
+.Felicidades{
+
+    height: 100vh;
+    width: 100%;
+    
+
+}
+.Felicidades.fel-foto{
+    align-items: center;
+display: flex;
+justify-content: center;
+padding-left: 400px;
+}
+.fel-text{
+  
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0;
+}
+.fel-foto{
+padding-top: 50px;
+padding-left: 100px;
+padding-bottom: 50px;
+    height: 400px;
+    width: 500px;
+}
+}
+@media (280px <= width <= 650px ) {
+    .Felicidades{
+
+        height: 100vh;
+        width: 100%;
+        
+    
+    }
+    .Felicidades.fel-foto{
+        align-items: center;
+    display: flex;
+    justify-content: center;
+        height: 50%;
+        width: 100%;
+    }
+      .fel-foto{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 50%;
+    width: 100%;
+    }
+    .fel-text{
+      
+        color: white;
+        font-size: 9px;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0%;
+    }
+  
+
+}
+
+@media (651px <= width <= 1365px ) {
+    .Felicidades{
+
+        height: 100vh;
+        width: 100%;
+        
+    
+    }
+    .Felicidades.fel-foto{
+        align-items: center;
+    display: flex;
+    justify-content: center;
+        height: 50%;
+        width: 100%;
+    }
+    .fel-text{
+      
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        padding-left: 0px;
+        padding-right: 0%;
+    }
+    .fel-foto{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 50%;
+    width: 100%;
+    }
+
+}

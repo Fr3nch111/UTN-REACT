@@ -1,0 +1,178 @@
+@media (width >= 1366px) {
+.SocialBar{
+  background: rgb(60,10,197);
+  background: linear-gradient(94deg, rgb(22, 0, 83) 20%, rgb(42, 0, 158) 30%, rgb(109, 110, 0) 70%, rgb(165, 140, 0) 80%);
+width: 100%;
+height: 80px;
+color: white;
+align-items: center;
+}
+
+.Navbar{
+    background: rgb(60,10,197);
+    background: linear-gradient(94deg, rgb(22, 0, 83) 20%, rgb(42, 0, 158) 30%, rgb(109, 110, 0) 70%, rgb(165, 140, 0) 80%);
+width: 100%;
+height: 80px;
+color: white;
+align-items: center;
+
+
+}
+
+.texto-nav{
+color: aliceblue;
+outline: none;
+}
+.Navbar-list{
+    list-style: none;
+    display:inline-block;
+
+}
+
+.List{
+ padding: 200px;
+}
+
+.button-NB {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(251, 255, 0);
+  background: rgb(0, 17, 255);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button-NB:hover{
+    box-shadow: 1px 2px 3px 2.5px rgba(255, 255, 255, 0.836) !important;
+    transition: all 0.1s linear;
+}
+.button-NB:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+}
+
+
+@media (280px <= width <= 655px ) {
+  .button-NB {
+    margin-right: 18%;
+    margin-top: 2%;
+  border: none;
+  outline: none;
+  color: rgb(251, 255, 0);
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 5px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 35px;
+  width: 26%;
+}
+.texto-nav{
+  color: aliceblue;
+  outline: none;
+  font-size: 10px;
+  }
+  .Navbar{
+    background: rgb(60,10,197);
+    background: linear-gradient(94deg, rgb(22, 0, 83) 20%, rgb(42, 0, 158) 30%, rgb(109, 110, 0) 70%, rgb(165, 140, 0) 80%);
+width: 120%;
+height: 100px;
+color: white;
+
+
+
+}
+
+  .SocialBar{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(94deg, rgb(22, 0, 83) 20%, rgb(42, 0, 158) 30%, rgb(109, 110, 0) 70%, rgb(165, 140, 0) 80%);
+  width: 120%;
+  height: 100px;
+  color: white;
+  align-items: center;
+  font-size: 10px;
+  margin-right: 1px;
+ 
+  margin-top: 10px;
+  }
+  
+}
+
+@media (656px <= width <= 1365px ) {
+  .button-NB {
+    margin-right: 8%;
+    margin-top: 2%;
+  border: none;
+  outline: none;
+  color: rgb(251, 255, 0);
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+  position:relative;
+  z-index: 0;
+  border-radius: 5px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height: 50px;
+  width: 17%;
+
+}
+.texto-nav{
+  color: aliceblue;
+  outline: none;
+  font-size: 14.7px;
+  }
+  .Navbar{
+    background: rgb(60,10,197);
+    background: linear-gradient(94deg, rgb(22, 0, 83) 20%, rgb(42, 0, 158) 30%, rgb(109, 110, 0) 70%, rgb(165, 140, 0) 80%);
+width: 100%;
+height: 90px;
+color: white;
+margin-top: 1.11%;
+
+
+
+
+
+}
+
+  .SocialBar{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(94deg, rgb(22, 0, 83) 20%, rgb(42, 0, 158) 30%, rgb(109, 110, 0) 70%, rgb(165, 140, 0) 80%);
+  width: 100%;
+  height: 100px;
+  color: white;
+  align-items: center;
+  font-size: 10px;
+  margin-right: 1px;
+ 
+
+  }
+  
+}
+
+
+
+
+
+
+

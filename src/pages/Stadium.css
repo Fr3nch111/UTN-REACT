@@ -1,0 +1,18 @@
+@media (700px <= width) {
+  
+.Bombonera-img{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+@media (280px <= width <= 699px  ) {
+
+    .Bombonera-img{
+        width: 0%;
+    }
+}

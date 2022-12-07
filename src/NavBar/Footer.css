@@ -1,0 +1,87 @@
+.Boca-foot{
+    width: 600px;
+    height: 200px;
+ 
+}
+.Footer{
+    background: rgb(0,0,0);
+    background: linear-gradient(94deg, rgba(0,0,0,1) 20%, rgba(16,0,61,1) 30%, rgba(7,0,103,1) 56%, rgba(0,5,145,1) 66%, rgba(0,8,227,1) 82%);
+     border-radius: 10px;
+}
+.footer-text{
+    color: #000000;
+    float: right;
+    margin-right: 300px;
+    margin-top: 150px;
+    
+}
+
+@media (280px <= width <= 549px ) {
+    .Boca-foot{
+        width: 15%;
+        height: 100%;
+     
+    }
+    .footer-text{
+        color: #000000;
+        float: right;
+        margin-right: 62%;
+        margin-top: 1%;
+        font-size: 10px;
+    }
+    .Footer{
+        background: rgb(0,0,0);
+        background: linear-gradient(94deg, rgba(0,0,0,1) 20%, rgba(16,0,61,1) 30%, rgba(7,0,103,1) 56%, rgba(0,5,145,1) 66%, rgba(0,8,227,1) 82%);
+         border-radius: 10px;
+        width: 250%;
+        height: 15%;
+    }
+    
+}
+@media (550px <= width <= 768px ) {
+    .Boca-foot{
+        width: 15%;
+        height: 100%;
+    }
+    .footer-text{
+        color: #000000;
+        float: right;
+        margin-right: 68%;
+        margin-top: 1%;
+        font-size: 15px;
+
+
+        
+    }
+    .Footer{
+        background: rgb(0,0,0);
+        background: linear-gradient(94deg, rgba(0,0,0,1) 20%, rgba(16,0,61,1) 30%, rgba(7,0,103,1) 56%, rgba(0,5,145,1) 66%, rgba(0,8,227,1) 82%);    
+        border-radius: 10px;
+        width: 250%;
+        height: 15%;
+    }
+    
+}
+
+@media (769px <= width <= 1365px ) {
+    .Boca-foot{
+        width: 10%;
+        height: 100%;
+    }
+    .footer-text{
+        color: #000000;
+        float: right;
+        margin-right: 63%;
+        margin-top: 1%;
+        font-size: 32px;
+        
+    }
+    .Footer{
+        background: rgb(0,0,0);
+        background: linear-gradient(94deg, rgba(0,0,0,1) 20%, rgba(16,0,61,1) 30%, rgba(7,0,103,1) 56%, rgba(0,5,145,1) 66%, rgba(0,8,227,1) 82%);  
+        border-radius: 10px;
+        width: 250%;
+        height: 20%;
+    }
+    
+}

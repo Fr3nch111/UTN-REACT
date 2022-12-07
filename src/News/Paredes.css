@@ -1,0 +1,123 @@
+.Paredes{
+
+    height: 100vh;
+    width: 100%;
+
+
+}
+.Wall-text{
+  
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  
+
+}
+.Wall-foto{
+    padding-left: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+    height: 500px;
+    width: 1000px;
+}
+
+@media (280px <= width <= 650px ) {
+    .Paredes{
+
+        height: 100vh;
+        width: 100%;
+    
+    
+    }
+    .Pibe-text{
+        margin-top: 1%;
+    width: 100%;
+    }
+    .Wall-text{
+      
+        color: white;
+        font-size: 15px;
+        text-align: center;
+      
+    
+    }
+    .Pibe-img{
+        width: 0%;
+        height: 0%;
+    }
+    .Wall-foto{
+  
+        height: 0px;
+        width: 0px;
+    }
+}
+
+@media (651px <= width <= 900px ) {
+    .Paredes{
+
+        height: 100vh;
+        width: 100%;
+    
+    
+    }
+    .Pibe-text{
+        margin-top: 1%;
+    width: 100%;
+    }
+    .Wall-text{
+      
+        color: white;
+        font-size: 20px;
+        text-align: center;
+      
+    
+    }
+    .Pibe-img{
+        width: 100%;
+        margin-bottom: 5%;
+        padding-right: 20%;
+        display: flex;
+    justify-content: right;
+    align-items: center;
+    }
+    .Wall-foto{
+   width: 900px;
+        height: 400px;
+    
+    }
+}
+
+@media (901px <= width <= 1365px ) {
+    .Paredes{
+
+        height: 100vh;
+        width: 100%;
+    
+    
+    }
+    .Pibe-text{
+        margin-top: 1%;
+    width: 100%;
+    }
+    .Wall-text{
+      
+        color: white;
+        font-size: 20px;
+        text-align: center;
+      
+    
+    }
+    .Pibe-img{
+        width: 100%;
+        margin-bottom: 2%;
+        padding-right: 30%;
+        display: flex;
+    justify-content: right;
+    align-items: center;
+    }
+    .Wall-foto{
+        width: 1000px;
+        height: 500px;
+    
+    }
+}
