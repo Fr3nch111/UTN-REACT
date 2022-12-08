@@ -1,7 +1,7 @@
-import Navigation, { SocialNav } from "../NavBar/NavBar";
-import Header from "../NavBar/Header/Header";
+import Navigation, { SocialNav } from "./NavBar/NavBar";
+import Header from "./NavBar/Header/Header";
 import { Asides } from "../Aside/Asides";
-import Footer from "../NavBar/Footer";
+import Footer from "./NavBar/Footer";
 
 export default function HomePage() {
   return (

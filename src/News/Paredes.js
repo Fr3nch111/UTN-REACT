@@ -1,7 +1,7 @@
 import "./Paredes.css";
-import Header from "../NavBar/Header/Header";
-import Navigation from "../NavBar/NavBar";
-import Footer from "../NavBar/Footer";
+import Header from "../pages/NavBar/Header/Header";
+import Navigation from "../pages/NavBar/NavBar";
+import Footer from "../pages/NavBar/Footer";
 
 export default function Pibe() {
   return (

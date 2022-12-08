@@ -1,7 +1,7 @@
 import "./Felicidades.css";
-import Header from "../NavBar/Header/Header";
-import Navigation from "../NavBar/NavBar";
-import Footer from "../NavBar/Footer";
+import Header from "./NavBar/Header/Header";
+import Navigation from "./NavBar/NavBar";
+import Footer from "./NavBar/Footer";
 
 export default function Fel() {
   return (

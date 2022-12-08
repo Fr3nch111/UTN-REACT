@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from "react";
-import Navigation from "../NavBar/NavBar";
+import Navigation from "./NavBar/NavBar";
 import "./Socio.css";
-import Header from "../NavBar/Header/Header";
-import Footer from "../NavBar/Footer";
+import Header from "./NavBar/Header/Header";
+import Footer from "./NavBar/Footer";
 
 const Formulario = () => {
   const [datos, setDatos] = useState({

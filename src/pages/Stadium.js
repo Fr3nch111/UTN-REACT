@@ -1,8 +1,8 @@
-import Navigation from "../NavBar/NavBar";
-import Header from "../NavBar/Header/Header";
+import Navigation from "./NavBar/NavBar";
+import Header from "./NavBar/Header/Header";
 import { Cards } from "../Aside/Asides";
 import "./Stadium.css";
-import Footer from "../NavBar/Footer";
+import Footer from "./NavBar/Footer";
 
 export default function Stadium() {
   return (
