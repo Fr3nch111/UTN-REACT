@@ -6,7 +6,7 @@ export default function Header() {
         alt="Boca-Nav"
         className="Boca-Nav"
       />
-      <h1 className="header-text">Club Atlético Boca Juniors</h1>{" "}
+      <h1 className="header-text">Club Atlético Boca Juniors</h1>
     </div>
   );
 }
