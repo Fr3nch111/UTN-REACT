@@ -13,7 +13,7 @@ const asides = [
     title: "Felicidades",
     image: Bombonera,
     Nav: "/ref",
-    text: "Queremos desearle una carta de felicitaciones a nuestros hinchas!",
+    text: "Queremos mandarle una carta de felicitaciones a nuestros hinchas!",
     buttonText: "Leer",
   }
 ];

@@ -1,16 +1,28 @@
-@media (700px <= width) {
+.Bombonera-img{
+    width: 100vw;
+    margin-top: 0.001%;
+}
+@media (700px <= width <= 833px) {
   
 .Bombonera-img{
-    width: 100%;
+    width: 100vw;
+    margin-top: 2%;
 }
 }
 
+@media (834px <= width <= 1365px) {
+    .Bombonera-img{
+        width: 100vw;
+        margin-top: 0.001%;
+    }
+}
 
 
 
 
 
-@media (320px <= width <= 476px  ) {
+
+@media (320px <= width <= 699px  ) {
 .Stadium-container{
     height: 100vh;
     width: 100vw;
@@ -21,7 +33,7 @@
     }
     .Stadium-cards{
         height: 55vh;
-        width: 100vw;
+        width: 90%;
 
     }
 }

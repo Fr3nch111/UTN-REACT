@@ -51,7 +51,7 @@
         float: right;
         margin-right: 10%;
         margin-top: 20%;
-        font-size: 15px;
+        font-size: 16px;
     }
     .Footer{
         background: rgb(0,0,0);
@@ -62,3 +62,26 @@
     }
 }
 
+
+@media (769px <= width <= 1365px) {
+    .Boca-foot{
+      width: 40%;
+        height: 100%;
+     
+     
+    }
+    .footer-text{
+        color: #ffffff;
+        float: right;
+        margin-right: 10%;
+        margin-top: 5%;
+        font-size: 25px;
+    }
+    .Footer{
+        background: rgb(0,0,0);
+        background: linear-gradient(94deg, rgba(0,0,0,1) 20%, rgba(16,0,61,1) 30%, rgba(7,0,103,1) 56%, rgba(0,5,145,1) 66%, rgba(0,8,227,1) 82%);
+         border-radius: 10px;
+        width: 100vw;
+        height: 25vh;
+    }
+}

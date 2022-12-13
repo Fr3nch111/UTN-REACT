@@ -49,10 +49,36 @@
     .header-text{
         color: #ffff00;
         float: right;
-        margin-right: 16%;
-        margin-top: 20%;
+        margin-right: 20%;
+        margin-top: 10%;
     
-        font-size: 10px;
+        font-size: 15px;
+
+
+        
+    }
+    .Header{
+        background-color: #260f68;
+        border-radius: 10px;
+        width: 100vw;
+        height: 15vh;
+    }
+    
+}
+
+@media (769px <= width <= 1365px) {
+    .Boca-Nav{
+        width: 40%;
+        height: 100%;
+     
+    }
+    .header-text{
+        color: #ffff00;
+        float: right;
+        margin-right: 20%;
+        margin-top: 3%;
+    
+        font-size: 25px;
 
 
         

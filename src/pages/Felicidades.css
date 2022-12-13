@@ -28,67 +28,81 @@ padding-bottom: 50px;
     width: 500px;
 }
 }
-@media (280px <= width <= 650px ) {
+@media (320px <= width <= 476px ) {
     .Felicidades{
 
         height: 100vh;
-        width: 100%;
+        width: 100vw;
         
     
     }
-    .Felicidades.fel-foto{
-        align-items: center;
-    display: flex;
-    justify-content: center;
-        height: 50%;
-        width: 100%;
-    }
+   
       .fel-foto{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: 50%;
-    width: 100%;
+
+    height: 0%;
+    width: 0%;
     }
     .fel-text{
       
         color: white;
-        font-size: 9px;
+        font-size: 16px;
         text-align: center;
-        padding-left: 0px;
-        padding-right: 0%;
+        margin-bottom: 15%;
+        margin-top: 10%;
     }
   
 
 }
 
-@media (651px <= width <= 1365px ) {
+@media (477px <= width <= 768px ) {
     .Felicidades{
 
         height: 100vh;
-        width: 100%;
+        width: 100vw;
         
     
     }
-    .Felicidades.fel-foto{
-        align-items: center;
-    display: flex;
-    justify-content: center;
-        height: 50%;
-        width: 100%;
+   
+      .fel-foto{
+
+    height: 30%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     }
     .fel-text{
       
         color: white;
-        font-size: 15px;
+        font-size: 16px;
         text-align: center;
-        padding-left: 0px;
-        padding-right: 0%;
+        margin-bottom: 4%;
+        margin-top: 10%;
     }
-    .fel-foto{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    height: 50%;
-    width: 100%;
-    }
-
+  
 }
+@media (769px <= width <= 1365px ) {
+    .Felicidades{
+        height: 100vh;
+        width: 100vw;
+    
+    }
+   
+      .fel-foto{
+
+        height: 45vh;
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 10%;
+  
+    
+    }
+    .fel-text{
+        color: white;
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 2%;
+        margin-top: 5%;
+    }
+}
+

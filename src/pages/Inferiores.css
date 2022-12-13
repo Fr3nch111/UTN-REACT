@@ -30,7 +30,7 @@
 
     .Inferiores{
 
-        height: 90vh;
+        height: 100vh;
         width: 100vw;
         
     
@@ -51,12 +51,98 @@
     }
     .inf-text{
         color: white;
-        font-size: 17px;
-        text-align: center;
-        height: 50vh;
+        font-size: 16.5px;
+        text-align:center;
+        height: 45%;
         width: 100vw;
+    
         
     }
 
+ }
+
+ @media (477px <= width <= 768px) {
+    .Inferiores{
+        height: 100vh;
+        width: 100vw;
+    
+    }
+    .inf-foto{
+        height: 0%;
+        width: 0%;
+  
+    
+    }
+    .info-photo{
+        height: 0%;
+        width: 0%;
+    }
+    .inf-text{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 4%;
+        margin-top: 15%;
+        
+    }
+ }
+
+ @media (769px <= width <= 972px) {
+    .Inferiores{
+        height: 100vh;
+        width: 100vw;
+    
+    }
+    .inf-foto{
+        height: 45vh;
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 10%;
+  
+    
+    }
+    .info-photo{
+  
+        height: 40%;
+        width: 100vw;
+        margin-bottom: 10%;
+    }
+    .inf-text{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        margin-bottom: 2%;
+        margin-top: 5%;
+        
+    }
+ }
+
+ @media (973px <= width <= 1365px) {
+    .Inferiores{
+        height: 100vh;
+        width: 100vw;
+    
+    }
+    .inf-foto{
+        height: 56vh;
+        width: 100%;
+        padding-right: 10%;
+        padding-left: 10%;
+  
+    
+    }
+    .info-photo{
+        height: 50%;
+        width: 100vw;
+        margin-bottom: 1%;
+    }
+    .inf-text{
+        color: white;
+        font-size: 17px;
+        text-align: center;
+        margin-bottom: 1%;
+        margin-top: 1%;
+        
+    }
  }
     

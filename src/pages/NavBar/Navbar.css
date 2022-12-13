@@ -170,6 +170,56 @@ color: white;
   
 }
 
+@media (769px <= width <= 1365px) {
+  .button-NB {
+    margin-top: 3%;
+    margin-right: 3%;
+  border: none;
+  outline: none;
+  color: rgb(251, 255, 0);
+  background: rgb(0, 0, 0);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 5px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  height:45px;
+  width: 20%;
+  
+}
+.texto-nav{
+  color: aliceblue;
+  outline: none;
+  font-size: 15px;
+  }
+  .Navbar{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(94deg, rgb(22, 0, 83) 20%, rgb(42, 0, 158) 30%, rgb(109, 110, 0) 70%, rgb(165, 140, 0) 80%);
+  width: 100vw;
+  height: 15vh;
+  color: white;
+  align-items: center;
+  font-size: 10px;
+  margin-right: 1px;
+  margin-top: 0.3px;
+}
+
+  .SocialBar{
+    background: rgb(0, 0, 0);
+    background: linear-gradient(94deg, rgb(22, 0, 83) 20%, rgb(42, 0, 158) 30%, rgb(109, 110, 0) 70%, rgb(165, 140, 0) 80%);
+  width: 100vw;
+  height: 15vh;
+  color: white;
+  align-items: center;
+  font-size: 15px;
+  margin-right: 1px;
+    margin-bottom: 10%;
+  }
+   
+}
+
 
 
 
