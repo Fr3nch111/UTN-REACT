@@ -67,7 +67,7 @@ margin-right: 60px;
 }
 
 
-@media (280px <= width <= 655px ) {
+@media (320px <= width <= 655px ) {
   .button-NB {
     margin-right: 18%;
     margin-top: 2%;
@@ -82,7 +82,7 @@ margin-right: 60px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  height: 35px;
+  height: 45px;
   width: 26%;
 }
 .texto-nav{
@@ -93,8 +93,8 @@ margin-right: 60px;
   .Navbar{
     background: rgb(60,10,197);
     background: linear-gradient(94deg, rgb(22, 0, 83) 20%, rgb(42, 0, 158) 30%, rgb(109, 110, 0) 70%, rgb(165, 140, 0) 80%);
-width: 120%;
-height: 100px;
+width: 100vw;
+height: 15vh;
 color: white;
 
 
@@ -104,8 +104,8 @@ color: white;
   .SocialBar{
     background: rgb(0, 0, 0);
     background: linear-gradient(94deg, rgb(22, 0, 83) 20%, rgb(42, 0, 158) 30%, rgb(109, 110, 0) 70%, rgb(165, 140, 0) 80%);
-  width: 120%;
-  height: 100px;
+  width: 100vw;
+  height: 15vh;
   color: white;
   align-items: center;
   font-size: 10px;
