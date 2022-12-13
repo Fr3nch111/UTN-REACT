@@ -29,7 +29,7 @@ const Formulario = () => {
   };
 
   return (
-    <Fragment>
+    <Fragment className="contenedor">
       <Header />
       <Navigation />
       <div className="container mt-5">
@@ -66,7 +66,7 @@ const Formulario = () => {
               required
             />
           </div>
-          <label>Provincia/Region</label>
+          <label className="region-label">Provincia/Region</label>
           <div className="col-md-3">
             <select
               name="provincia"

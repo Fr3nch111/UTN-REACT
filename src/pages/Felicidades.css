@@ -10,7 +10,6 @@
     align-items: center;
 display: flex;
 justify-content: center;
-padding-left: 400px;
 }
 .fel-text{
   
@@ -21,6 +20,7 @@ padding-left: 400px;
     padding-right: 0;
 }
 .fel-foto{
+    margin-left: 400px;
 padding-top: 50px;
 padding-left: 100px;
 padding-bottom: 50px;
