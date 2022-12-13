@@ -14,6 +14,7 @@ export default function Tdc() {
         className="tdc-foto"
       ></img>
      </div>
+     
       <p className="tdc-text">
         Una hermosa tarde de domingo en Villa Mercedes sería el momento y el
         lugar de la definición del Trofeo de Campeones. El equipo dirigido por
@@ -26,7 +27,7 @@ export default function Tdc() {
         año habiendo ganado 2 títulos oficiales (Copa de la Liga y torneo
         local).
       </p>
-     
+  
       <Footer />
     </div>
   );

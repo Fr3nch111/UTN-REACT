@@ -88,7 +88,6 @@ export function Cards() {
             <br/>
             <Aside
               title={cards.title}
-              imageSource={cards.image}
               text={cards.text}
               buttonText={cards.buttonText}
             />

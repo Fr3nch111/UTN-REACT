@@ -26,11 +26,12 @@
     width: 1000px;
 }
 
-@media (280px <= width <= 650px ) {
+@media (320px <= width <= 476px ) {
     .Paredes{
 
-        height: 100vh;
-        width: 100%;
+        height: 90vh;
+        width: 100vw;
+        
     
     
     }
@@ -39,90 +40,25 @@
     width: 100%;
     }
     .Wall-text{
-      
         color: white;
-        font-size: 15px;
+        font-size: 16px;
         text-align: center;
-      
+        height: 50vh;
+        width: 100vw;
     
     }
     .Pibe-img{
-        width: 0%;
-        height: 0%;
+        margin-right: 0%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 10%;
+        width: 100%;
     }
     .Wall-foto{
-  
-        height: 0px;
         width: 0px;
-    }
-}
-
-@media (651px <= width <= 900px ) {
-    .Paredes{
-
-        height: 100vh;
-        width: 100%;
-    
-    
-    }
-    .Pibe-text{
-        margin-top: 1%;
-    width: 100%;
-    }
-    .Wall-text{
-      
-        color: white;
-        font-size: 20px;
-        text-align: center;
-      
-    
-    }
-    .Pibe-img{
-        width: 100%;
-        margin-bottom: 5%;
-        padding-right: 20%;
-        display: flex;
-    justify-content: right;
-    align-items: center;
-    }
-    .Wall-foto{
-   width: 900px;
-        height: 400px;
+        height: 0px;
     
     }
 }
 
-@media (901px <= width <= 1365px ) {
-    .Paredes{
-
-        height: 100vh;
-        width: 100%;
-    
-    
-    }
-    .Pibe-text{
-        margin-top: 1%;
-    width: 100%;
-    }
-    .Wall-text{
-      
-        color: white;
-        font-size: 20px;
-        text-align: center;
-      
-    
-    }
-    .Pibe-img{
-        width: 100%;
-        margin-bottom: 2%;
-        padding-right: 30%;
-        display: flex;
-    justify-content: right;
-    align-items: center;
-    }
-    .Wall-foto{
-        width: 1000px;
-        height: 500px;
-    
-    }
-}

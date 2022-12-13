@@ -29,7 +29,7 @@ const Formulario = () => {
   };
 
   return (
-    <Fragment className="contenedor">
+    <Fragment>
       <Header />
       <Navigation />
       <div className="container mt-5">

@@ -60,7 +60,7 @@ h1{color: white;}
 
 
 
-@media (280px <= width <= 1365px ) {
+@media (320px <= width <= 476px ) {
 label{
   color: white;
 }
@@ -68,7 +68,7 @@ label{
   .form-control{
     width: 80%;
     height: 70px;
-    margin-bottom: 3%;
+   margin-bottom: 1.7%;
     
   }
   .form-body{
@@ -101,7 +101,7 @@ h1{color: white;}
     transition: 0.3s;
 }
 .Result{
-    width: 80%;
+    width: 115%;
     background-color: rgb(230, 189, 57);
     border: 1px solid black;
     align-items: center;
@@ -109,7 +109,7 @@ h1{color: white;}
     display: flex;
     justify-content: center;
     padding: 50px;
-    margin-top: 70px;
+
 }
 .Result-text{
   font-size: 15px;
