@@ -15,7 +15,7 @@
     
 }
 
-@media (320px <= width <= 549px ) {
+@media (320px <= width <= 476px) {
     .Boca-Nav{
         width: 40%;
         height: 100%;
@@ -40,19 +40,19 @@
     }
     
 }
-@media (550px <= width <= 768px ) {
+@media (477px <= width <= 768px) {
     .Boca-Nav{
-        width: 15%;
+        width: 40%;
         height: 100%;
      
     }
     .header-text{
         color: #ffff00;
         float: right;
-        margin-right: 68%;
-        margin-top: 1%;
+        margin-right: 16%;
+        margin-top: 20%;
     
-        font-size: 15px;
+        font-size: 10px;
 
 
         
@@ -60,34 +60,12 @@
     .Header{
         background-color: #260f68;
         border-radius: 10px;
-        width: 250%;
-        height: 15%;
+        width: 100vw;
+        height: 15vh;
     }
     
 }
 
-@media (769px <= width <= 1365px ) {
-    .Boca-Nav{
-        width: 10%;
-        height: 100%;
-     
-    }
-    .header-text{
-        color: #ffff00;
-        float: right;
-        margin-right: 70%;
-        margin-top: 1%;
-    
-        font-size: 32px;
-        
-    }
-    .Header{
-        background-color: #260f68;
-        border-radius: 10px;
-        width: 250%;
-        height: 20%;
-    }
-    
-}
+
 
 
