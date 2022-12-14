@@ -19,8 +19,9 @@
     padding-bottom: 50px;
 }
 
+/* --------------------------- -----------------------*/
 
-@media (320px <= width <= 476px ) {
+@media (min-width: 320px) {
     .TFD{
 
         height: 100vh;
@@ -29,9 +30,9 @@
     }
   .tdc-text{
     color: white;
-    font-size: 15.9px;
+    font-size: 19px;
     text-align: center;
-    height: 45vh;
+    height: 90vh;
     width: 100vw;
   }
     .tdc-foto{
@@ -49,9 +50,21 @@
     }
 }
 
+/* --------------------------- -----------------------*/
 
+@media (min-width: 700px) {
+    .tdc-text{
+        color: white;
+        font-size: 25px;
+        text-align: center;
+        height: 90vh;
+        width: 100vw;
+      }
+}
 
-@media (477px <= width <= 768px) {
+/* --------------------------- -----------------------*/
+
+@media (min-width: 768px) {
     .TFD{
 
         height: 100vh;
@@ -66,21 +79,23 @@
     width: 100vw;
   }
     .tdc-foto{
-        width: 0px;
-        height: 0px;
+        width: 170%;
+        height: 170%;
     
     }
     .TFD-DIV{
-        margin-right: 0%;
+      
         display: flex;
         justify-content: right;
         align-items: center;
-        padding-right: 10%;
+        padding-right: 20%;
         width: 100%;
     }
 }
 
-@media (769px <= width <= 1000px) {
+/* --------------------------- -----------------------*/
+
+@media (min-width: 1078px) {
     .TFD{
         height: 100vh;
         width: 100vw;
@@ -88,48 +103,22 @@
     }
   .tdc-text{
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 2%;
     margin-top: 5%;
     
   }
     .tdc-foto{
-        height: 45vh;
-        width: 100%;
+        height:60vh;
+        width: 120%;
         padding-right: 10%;
-        padding-left: 10%;
+        padding-left: 50%;
     }
     .TFD-DIV{
+        padding-top: 20%;
         height: 40%;
         width: 100vw;
-        margin-bottom: 2%;
+        margin-bottom: 15%;
     }
-}
-
-@media (1001px <= width <= 1365px) {
-    .TFD{
-        height: 100vh;
-        width: 100vw;
-    
-    }
-  .tdc-text{
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 1%;
-    margin-top: 5%;
-    
-  }
-    .tdc-foto{
-        height: 55vh;
-        width: 100%;
-        padding-right: 10%;
-        padding-left: 10%;
-    }
-    .TFD-DIV{
-        height: 45%;
-        width: 100vw;
-        margin-bottom: 2%;
-    }   
 }

@@ -1,462 +1,185 @@
-@media (width >= 1366px ) {
-.region-label{
-  color: white;
-}
-.form-body{
-    align-items: center;
-    padding-left: 400px;
-    color: rgb(255, 255, 255);
-    
-}
-h1{color: white;}
-.input{
-    width: 700px;
-    height: 50px;
-    border: 3px solid rgb(0, 0, 0);
-
-}
-.input:hover{
-    border: 3px solid rgb(236, 182, 2);
-    transition: 0.1s;
-}
-.submit{
-  border: 3px solid black;
-  color: white;
- 
-  background-color: rgb(236, 182, 2);
-  height: 100px;
-  font-size: larger;
-  font-style:oblique;
-}
-.submit:hover{
-    background-color: rgb(230, 189, 57);
-    transition: 0.3s;
-}
-.Result{
-    width: 100%;
-    background-color: rgb(230, 189, 57);
-    border: 1px solid black;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    margin-top: 180px;
-}
-.Result:hover{
-    box-shadow: 1px 2px 3px 2.5px rgba(255, 255, 255, 0.836) !important;
-    color: rgb(44, 12, 247);
-    transition: all 0.1s linear;
-}
-}
-
-@media (320px <= width <= 407px ) {
-label{
-  color: white;
-}
-.row{
-  height: 45vh;
-  width: 90vw;
-  
-}
-  .form-control{
-    width: 100%;
-    height: 49px;
-    
-  }
-  .form-body{
-    align-items:center;
-    color: rgb(255, 255, 255);
-    
-}
-h1{color: white;}
-.input{
-    width: 100%;
-    height: 40px;
-    border: 3px solid rgb(0, 0, 0);
-
-}
-.input:hover{
-    border: 3px solid rgb(236, 182, 2);
-    transition: 0.1s;
-}
-.submit{
-  border: 3px solid black;
-  color: white;
-  background-color: rgb(236, 182, 2);
-  height: 50px;
-  font-size: larger;
-  font-style:oblique;
-}
-.submit:hover{
-    background-color: rgb(230, 189, 57);
-    transition: 0.3s;
-}
-.Result{
-    width: 100vw;
-    height: 20%;
-    background-color: rgb(230, 189, 57);
-    border: 1px solid black;
-    align-items: center;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    margin-top: 20%;
-
-}
-.Result-text{
-  font-size: 15px;
-}
-.Result:hover{
-    box-shadow: 1px 2px 3px 2.5px rgba(255, 255, 255, 0.836) !important;
-    color: rgb(44, 12, 247);
-    transition: all 0.1s linear;
-}
-}
-@media (408px <= width <= 476px ) {
-  label{
-    color: white;
-  }
-  .row{
-    height: 45vh;
-    width: 90vw;
-    
-  }
-    .form-control{
-      width: 100%;
-      height: 49px;
+@media (min-width: 1366px) {
+    .region-label{
+        color: white;
+      }
+      .row{
+        margin-top: 20px;
+        width: 90vw;
+        height: 40vh;
+        display: flex;
+      }
+      .container{
       
-    }
-    .form-body{
-      align-items:center;
-      color: rgb(255, 255, 255);
+        width: 110vw;
+        height: 25vh;
+        padding-right: 40%;
+      }
+      .form-body{
+     
+          align-items: center;
+          color: rgb(255, 255, 255);
+          
+      }
+      h1{color: white;}
+
+      .input{
+          width: 800px;
+          height: 200px;
+          border: 3px solid rgb(0, 0, 0);
       
-  }
-  h1{color: white;}
-  .input{
-      width: 100%;
-      height: 40px;
-      border: 3px solid rgb(0, 0, 0);
-  
-  }
-  .input:hover{
-      border: 3px solid rgb(236, 182, 2);
-      transition: 0.1s;
-  }
-  .submit{
-    border: 3px solid black;
-    color: white;
-    background-color: rgb(236, 182, 2);
-    height: 50px;
-    font-size: larger;
-    font-style:oblique;
-  }
-  .submit:hover{
-      background-color: rgb(230, 189, 57);
-      transition: 0.3s;
-  }
-  .Result{
-      width: 100vw;
-      height: 20%;
-      background-color: rgb(230, 189, 57);
-      border: 1px solid black;
-      align-items: center;
-      top: 0;
-      display: flex;
-      justify-content: center;
-      padding: 50px;
-      margin-top: 10%;
-  
-  }
-  .Result-text{
-    font-size: 15px;
-  }
-  .Result:hover{
-      box-shadow: 1px 2px 3px 2.5px rgba(255, 255, 255, 0.836) !important;
-      color: rgb(44, 12, 247);
-      transition: all 0.1s linear;
-  }
+      }
+      .input:hover{
+          border: 3px solid rgb(236, 182, 2);
+          transition: 0.1s;
+      }
+      .submit{
+        border: 3px solid black;
+        color: white;
+       
+        background-color: rgb(236, 182, 2);
+        height: 100px;
+        font-size: larger;
+        font-style:oblique;
+      }
+      .submit:hover{
+          background-color: rgb(230, 189, 57);
+          transition: 0.3s;
+      }
+      .Result{
+          width: 100%;
+          background-color: rgb(230, 189, 57);
+          border: 1px solid black;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          padding: 50px;
+          margin-top: 180px;
+      }
+      .Result:hover{
+          box-shadow: 1px 2px 3px 2.5px rgba(255, 255, 255, 0.836) !important;
+          color: rgb(44, 12, 247);
+          transition: all 0.1s linear;
+      }
 }
 
+/* --------------------------- -----------------------*/
 
+@media (min-width: 320px) {
+    .region-label{
+        color: white;
+      }
+      .row{
+        width: 70vw;
+      }
+      .form-body{
 
+          align-items: center;
+          color: rgb(255, 255, 255);
+          
+      }
+      h1{color: white;}
+      .input{
+          width: 700px;
+          height: 50px;
+          border: 3px solid rgb(0, 0, 0);
+      
+      }
+      .input:hover{
+          border: 3px solid rgb(236, 182, 2);
+          transition: 0.1s;
+      }
+      .submit{
+        border: 3px solid black;
+        color: white;
+       
+        background-color: rgb(236, 182, 2);
+        height: 100px;
+        font-size: larger;
+        font-style:oblique;
+      }
+      .submit:hover{
+          background-color: rgb(230, 189, 57);
+          transition: 0.3s;
+      }
+      .Result{
+          width: 100%;
+          background-color: rgb(230, 189, 57);
+          border: 1px solid black;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          padding: 50px;
+          margin-top: 180px;
+      }
+      .Result:hover{
+          box-shadow: 1px 2px 3px 2.5px rgba(255, 255, 255, 0.836) !important;
+          color: rgb(44, 12, 247);
+          transition: all 0.1s linear;
+      }
+}
 
+/* --------------------------- -----------------------*/
 
-
-
-
-@media (477px <= width <= 724px ) {
-  label{
-    color: white;
-  }
-  .row{
-    height: 45vh;
-    width: 90vw;
+@media (min-width: 768px) {
+    .region-label{
+        color: white;
+      }
+      .row{
+   
+        width: 85vw;
+        height: 30vh;
+        display: flex;
+      }
+      .container{
+      
+        width: 110vw;
+        height: 25vh;
+        padding-right: 40%;
+      }
+      .form-body{
     
-  }
-    .form-control{
-      width: 100%;
-      height: 55px;
+          align-items: center;
+          color: rgb(255, 255, 255);
+          
+      }
+      h1{color: white;}
+
+      .input{
+          width: 800px;
+          height: 100px;
+          border: 3px solid rgb(0, 0, 0);
       
-    }
-    .form-body{
-      align-items:center;
-      color: rgb(255, 255, 255);
-      
-  }
-  h1{color: white;}
-  .input{
-      width: 100%;
-      height: 40px;
-      border: 3px solid rgb(0, 0, 0);
-  
-  }
-  .input:hover{
-      border: 3px solid rgb(236, 182, 2);
-      transition: 0.1s;
-  }
-  .submit{
-    border: 3px solid black;
-    color: white;
-    background-color: rgb(236, 182, 2);
-    height: 50px;
-    font-size: larger;
-    font-style:oblique;
-  }
-  .submit:hover{
-      background-color: rgb(230, 189, 57);
-      transition: 0.3s;
-  }
-  .Result{
-      width: 100vw;
-      height: 20%;
-      background-color: rgb(230, 189, 57);
-      border: 1px solid black;
-      align-items: center;
-      top: 0;
-      display: flex;
-      justify-content: center;
-      padding: 50px;
-      margin-top: 48%;
-  
-  }
-  .Result-text{
-    font-size: 15px;
-  }
-  .Result:hover{
-      box-shadow: 1px 2px 3px 2.5px rgba(255, 255, 255, 0.836) !important;
-      color: rgb(44, 12, 247);
-      transition: all 0.1s linear;
-  }
+      }
+      .input:hover{
+          border: 3px solid rgb(236, 182, 2);
+          transition: 0.1s;
+      }
+      .submit{
+        border: 3px solid black;
+        color: white;
+       
+        background-color: rgb(236, 182, 2);
+        height: 100px;
+        font-size: larger;
+        font-style:oblique;
+      }
+      .submit:hover{
+          background-color: rgb(230, 189, 57);
+          transition: 0.3s;
+      }
+      .Result{
+          width: 100%;
+          background-color: rgb(230, 189, 57);
+          border: 1px solid black;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          padding: 50px;
+          margin-top: 180px;
+      }
+      .Result:hover{
+          box-shadow: 1px 2px 3px 2.5px rgba(255, 255, 255, 0.836) !important;
+          color: rgb(44, 12, 247);
+          transition: all 0.1s linear;
+      }
 }
-
-@media (725px <= width <= 768px ) {
-  label{
-    color: white;
-  }
-  .row{
-    height: 45vh;
-    width: 90vw;
-    
-  }
-    .form-control{
-      width: 100%;
-      height: 55px;
-      
-    }
-    .form-body{
-      align-items:center;
-      color: rgb(255, 255, 255);
-      
-  }
-  h1{color: white;}
-  .input{
-      width: 100%;
-      height: 40px;
-      border: 3px solid rgb(0, 0, 0);
-  
-  }
-  .input:hover{
-      border: 3px solid rgb(236, 182, 2);
-      transition: 0.1s;
-  }
-  .submit{
-    border: 3px solid black;
-    color: white;
-    background-color: rgb(236, 182, 2);
-    height: 50px;
-    font-size: larger;
-    font-style:oblique;
-  }
-  .submit:hover{
-      background-color: rgb(230, 189, 57);
-      transition: 0.3s;
-  }
-  .Result{
-      width: 100vw;
-      height: 20%;
-      background-color: rgb(230, 189, 57);
-      border: 1px solid black;
-      align-items: center;
-      top: 0;
-      display: flex;
-      justify-content: center;
-      padding: 50px;
-      margin-top: 33%;
-  
-  }
-  .Result-text{
-    font-size: 15px;
-  }
-  .Result:hover{
-      box-shadow: 1px 2px 3px 2.5px rgba(255, 255, 255, 0.836) !important;
-      color: rgb(44, 12, 247);
-      transition: all 0.1s linear;
-  }
-}
-
-@media (769px <= width <= 1305px) {
-  label{
-    color: white;
-  }
-  .row{
-    height: 45vh;
-    width: 90vw;
-    margin-right: 5%;
-    
-  }
-  .btn{
-    height: 16vh;
-  }
-    .form-control{
-      width: 110%;
-      height: 120px;
-  
-    
-      
-    }
-    .form-body{
-      align-items:center;
-      color: rgb(255, 255, 255);
-      
-  }
-  h1{color: white;}
-  .input{
-      width: 100%;
-      height: 40px;
-      
-      border: 3px solid rgb(0, 0, 0);
-  
-  }
-  .input:hover{
-      border: 3px solid rgb(236, 182, 2);
-      transition: 0.1s;
-  }
-  .submit{
-    border: 3px solid black;
-    color: white;
-    background-color: rgb(236, 182, 2);
-    height: 50px;
-    font-size: 25px;
-    font-style:oblique;
-  }
-  .submit:hover{
-      background-color: rgb(230, 189, 57);
-      transition: 0.3s;
-  }
-  .Result{
-      width: 100vw;
-      height: 50%;
-      background-color: rgb(230, 189, 57);
-      border: 1px solid black;
-      align-items: center;
-      top: 0;
-      display: flex;
-      justify-content: center;
-      padding: 50px;
-      margin-top: 30%;
-  
-  }
-  .Result-text{
-    font-size: 22px;
-  }
-  .Result:hover{
-      box-shadow: 1px 2px 3px 2.5px rgba(255, 255, 255, 0.836) !important;
-      color: rgb(44, 12, 247);
-      transition: all 0.1s linear;
-  }
-}
-
-
-
-@media (1306px <= width <= 1365px) {label{
-  color: white;
-}
-.row{
-  height: 45vh;
-  width: 90vw;
-  margin-right: 5%;
-  
-}
-.btn{
-  height: 16vh;
-}
-  .form-control{
-    width: 110%;
-    height: 120px;
-
-  
-    
-  }
-  .form-body{
-    align-items:center;
-    color: rgb(255, 255, 255);
-    
-}
-h1{color: white;}
-.input{
-    width: 100%;
-    height: 40px;
-    
-    border: 3px solid rgb(0, 0, 0);
-
-}
-.input:hover{
-    border: 3px solid rgb(236, 182, 2);
-    transition: 0.1s;
-}
-.submit{
-  border: 3px solid black;
-  color: white;
-  background-color: rgb(236, 182, 2);
-  height: 50px;
-  font-size: 25px;
-  font-style:oblique;
-}
-.submit:hover{
-    background-color: rgb(230, 189, 57);
-    transition: 0.3s;
-}
-.Result{
-    width: 100vw;
-    height: 50%;
-    background-color: rgb(230, 189, 57);
-    border: 1px solid black;
-    align-items: center;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    padding: 50px;
-    margin-top: 22%;
-
-}
-.Result-text{
-  font-size: 22px;
-}
-.Result:hover{
-    box-shadow: 1px 2px 3px 2.5px rgba(255, 255, 255, 0.836) !important;
-    color: rgb(44, 12, 247);
-    transition: all 0.1s linear;
-}
-}
-

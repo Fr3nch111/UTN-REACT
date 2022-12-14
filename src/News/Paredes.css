@@ -26,7 +26,9 @@
     width: 1000px;
 }
 
-@media (320px <= width <= 476px ) {
+/* --------------------------- -----------------------*/
+
+@media (min-width: 320px) {
     .Paredes{
 
         height: 100vh;
@@ -37,7 +39,7 @@
     }
     .Pibe-text{
     width: 100%;
-       height: 46%; 
+       height: 90%; 
     }
     .Wall-text{
         color: white;
@@ -62,7 +64,24 @@
     }
 }
 
-@media (477px <= width <= 768px) {
+/* --------------------------- -----------------------*/
+
+
+@media (min-width: 500px) {
+    .Wall-text{
+        color: white;
+        font-size: 22px;
+        text-align: center;
+     
+        width: 100vw;
+    
+    }
+}
+
+
+/* --------------------------- -----------------------*/
+
+@media (min-width: 768px) {
     .Paredes{
 
         height: 100vh;
@@ -84,20 +103,23 @@
     
     }
     .Pibe-img{
-        margin-right: 0%;
         display: flex;
         justify-content: right;
         align-items: center;
-        padding-right: 10%;
+        padding-right: 20%;
         width: 100%;
     }
     .Wall-foto{
-        width: 0px;
-        height: 0px;
+        width: 140%;
+        height: 100%;
     
     }
 }
-@media (769px <= width <= 1000px) {
+
+/* --------------------------- -----------------------*/
+
+
+@media (min-width: 1078px) {
     .Paredes{
         height: 100vh;
         width: 100vw;
@@ -105,67 +127,33 @@
     }
     .Pibe-text{
 
-        margin-bottom: 1%;
+        margin-bottom: 15%;
         height: 20%;
+        
 
     }
 
     .Wall-text{
         color: white;
-        font-size: 15px;
+        font-size: 23px;
         text-align: center;
-        margin-bottom: 1%;
+        
         
     
     }
     .Pibe-img{
-    
+        padding-top: 12%;
+        padding-left: 20%;
         height: 40%;
         width: 100vw;
-        margin-bottom: 1%;
-    }
-    .Wall-foto{
-        height: 45vh;
-        width: 100%;
-        padding-right: 10%;
-        padding-left: 10%;
-  
-    }
-}
-
-@media (1001px <= width <= 1365px) {
-    .Paredes{
-        height: 100vh;
-        width: 100vw;
-    
-    }
-    .Pibe-text{
-
-        margin-bottom: 0%;
-        height: 18%;
-
-    }
-
-    .Wall-text{
-        color: white;
-        font-size: 17px;
-        text-align: center;
-        margin-bottom: 0%;
+        margin-bottom: 12%;
         
-    
-    }
-    .Pibe-img{
-    
-        height: 50%;
-        width: 100vw;
-        margin-bottom: 1%;
     }
     .Wall-foto{
-        height: 55vh;
+        height: 60vh;
         width: 100%;
         padding-right: 10%;
         padding-left: 10%;
   
     }
 }
-

@@ -60,6 +60,7 @@ const news = [
 
 export function News() {
   return (
+    <div className="Noticias">
     <div className="Cards-container d-flex justify-content-center align-items-center h-100">
       <div className="row">
         {news.map((news) => (
@@ -74,6 +75,7 @@ export function News() {
           </div>
         ))}
       </div>
+    </div>
     </div>
   );
 }
